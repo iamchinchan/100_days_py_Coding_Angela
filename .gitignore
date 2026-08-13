@@ -1,0 +1,93 @@
+# ========================
+# SECRETS (CRITICAL)
+# ========================
+.env
+.env.*
+*.env
+*.pem
+*.key
+*secret*
+saveAiInfo.txt
+secrets.json
+
+# ========================
+# AI EXTENSIONS & AGENTS (Prevents AI Loop)
+# ========================
+.venv
+.continue/
+.continueignore
+.kilo/
+kilo.jsonc
+.cursor/
+.cursorrules
+
+# ========================
+# LLAMA CODER / LOCAL AI CACHE
+# ========================
+.llamacoder/
+.twinny/
+.fused/
+
+
+# ========================
+# PYTHON & ENVIRONMENTS
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+.conda/
+env/
+venv/
+.venv/
+Pipfile.lock
+
+# ========================
+# JUPYTER & DATA SCIENCE
+# ========================
+.ipynb_checkpoints/
+*.csv
+*.tsv
+*.dat
+data/
+
+# ========================
+# MACHINE LEARNING MODELS
+# ========================
+*.pt
+*.pth
+*.h5
+*.safetensors
+*.onnx
+models/
+J:/GenAI_Models/
+
+
+# ========================
+# WEB DEV (FLASK/NODEJS)
+# ========================
+instance/
+node_modules/
+dist/
+build/
+.next/
+
+# ========================
+# DATABASES & LOGS
+# ========================
+*.sqlite3
+*.db
+*.log
+
+# ========================
+# OS JUNK
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+#Editor Files
+# ========================
+.vscode/
+.idea/
+*/*.vscode/*
+*/*.idea/*
