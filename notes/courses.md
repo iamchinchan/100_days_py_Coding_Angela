@@ -1,0 +1,1 @@
+To complete learn about Gen AI overall: https://www.youtube.com/watch?v=NHyfqe-Va9A
